@@ -4,7 +4,8 @@ In this project, we implement several reinforcement learning algorithms to try t
 Here are some instructions to run them:
 
 ### Deep Q-Network (DQN)
-Due to some issues with our DQN code, it is still not available. We will post it in the next few days.
+Run 'dqn_discrete_walker.ipynb' in a Google Colab environment with GPU enabled.
+Weights for the network are provided in 'DQN_weights.dat', jsut change the path for loading / saving weights to skip training (currently the training saves results in Google Drive if you mount it to the notebook).
 
 ### Genetic Algorithm
 Run the `Genetic.ipynb` notebook with the `genetic.py` file being in the same folder.
