@@ -2,6 +2,8 @@
 
 In this project, we implement several reinforcement learning algorithms to try to get the best score at the OpenAI Gym's BipedalWalker environment.
 Here are some instructions to run them:
+First, execute the file `script-requirements.sh` to install the required libraries.
+Then, report to the folder of the algorithm you want to execute:
 
 ### Deep Q-Network (DQN)
 Run `dqn_discrete_walker.ipynb` in a Google Colab environment with GPU enabled.
@@ -17,3 +19,7 @@ The outcome of 2000-episode training can be seen on the video called `DDPG_Video
 
 ### Proximal Policy Optimization (PPO)
 For PPO, run the `PPO.ipynb` notebook.
+
+
+Here is an animation showing the performance of the agent after training with DDPG (after hyperparameter fine-tuning).
+![DDPG](ddpg_best_parameters.gif)
