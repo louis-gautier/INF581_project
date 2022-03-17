@@ -1,0 +1,10 @@
+pip install numpy
+pip install pandas
+pip install gym
+pip install seaborn
+pip install pyvirtualdisplay
+pip install imageio
+pip install nnfigs
+pip install box2d-py
+apt install xvfb
+apt install x11-utils
